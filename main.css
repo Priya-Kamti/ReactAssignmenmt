@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.header {
+  width: 100wh;
+  height: 70px;
+  background-color: rgb(177, 175, 175);
+  justify-content: space-between;
+  display: flex;
+}
+.header h3 {
+  padding: 20px;
+}
+.header ul {
+  display: flex;
+  font-size: larger;
+  list-style: none;
+  padding: 20px;
+}
+.header ul li {
+  padding-left: 100px;
+  color: red;
+}
+
+/* products */
+.body {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: rgb(209, 201, 201);
+}
+
+.sareeComp {
+  display: flex;
+  background-color: rgb(209, 201, 201);
+  justify-content: space-between;
+  padding: 50px;
+  height: 325px;
+}
+
+.product {
+  width: 200px;
+  text-align: center;
+  background-color: rgb(177, 175, 175);
+  line-height: 22px;
+  box-shadow: 0px 2px 5px 0px gray;
+}
+.product img {
+  width: 200px;
+  height: 250px;
+}
+.product button {
+  padding: 4px;
+  background-image: linear-gradient(to right, rgb(165, 161, 161), rgb(233, 221, 221));
+  color: rgb(196, 59, 59);
+  font-weight: bold;
+  border: none;
+}
+
+.category {
+  background-color: rgb(177, 175, 175);
+  text-align: center;
+}
+.category img {
+  width: 250px;
+  height: 293px;
+}
+
+.footer {
+  height: 100px;
+  background-color: rgb(177, 175, 175);
+}
+
+/*Login Component*/
+.login {
+  background-color: rgb(209, 201, 201);
+  text-align: center;
+  height: 425px;
+}
+.login h1 {
+  padding: 20px 0px 0px 0px;
+}
+.login form {
+  margin: 20px 200px 0px 470px;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 30px;
+  text-align: center;
+}
+.login form .main-box {
+  display: flex;
+  margin-bottom: 20px;
+}
+.login form .main-box .leftBox {
+  text-align: left;
+  display: inline;
+}
+.login form .main-box .leftBox .input {
+  height: 20px;
+  width: 200px;
+}
+.login form .main-box .rightBox {
+  text-align: left;
+  line-height: 35px;
+  padding: 5px;
+  font-size: 25px;
+}
+.login form button {
+  font-weight: bold;
+  background-image: linear-gradient(to right, rgb(165, 161, 161), rgb(233, 221, 221));
+  color: rgb(196, 59, 59);
+  font-weight: bold;
+  border: none;
+  box-shadow: 0px 2px 5px 0px gray;
+  border-radius: 5px;
+  padding: 7px 10px;
+}
+
+.messages {
+  color: red;
+  margin-top: 10px;
+}
+
+/* CartItems */
+.cartItems {
+  background-color: rgb(209, 201, 201);
+  height: 425px;
+}
+.cartItems .item {
+  display: flex;
+  align-items: center;
+  margin-top: 10p;
+}
+.cartItems .item img {
+  width: 70px;
+  height: 70px;
+}/*# sourceMappingURL=main.css.map */
